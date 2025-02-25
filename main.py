@@ -1,6 +1,7 @@
 # imports for the start
 import customtkinter as ctk # pip install customtkinter
 from tkinter import PhotoImage
+
 from PIL import Image, ImageTk , ImageFont #pip install Pillow
 import pyglet,tkinter
 
@@ -56,32 +57,3 @@ if __name__ == "__main__":
 
 
 
-
-
-
-
-
-
-
-
-
-#window =ctk.CTk(className=" Nicholas' Pokedex")
-#window.geometry("900x675")
-
-
-#login_lbl = ctk.CTkLabel(text="Login", bg="#ee5351", fg="white" ,width="20")
-#login_lbl.grid(row=0, column=0,sticky="nsew", padx=10, pady=10 )
-
-#name_lbl =ctk.CTkLabel(text="Name", bg="#ee5351", fg="white" ,width="20")
-#name_lbl.grid(row=0, column=1,sticky="nsew", padx=10, pady= 10)
-
-#name_ent =ctk.CTkEntry()
-#name_ent.grid(row=0, column=2,sticky="nsew", padx=10, pady= 10)
-
-#password_lbl = ctk.CTkLabel(text="Password", bg="#ee5351", fg="white" ,width="20")
-#password_lbl.grid(row=1, column=1,sticky="nsew", padx=10, pady= 10)
-
-#password_ent = ctk.CTkEntry()
-#password_ent.grid(row=1, column=2,sticky="nsew", padx=10, pady= 10)
-
-#window.mainloop()
